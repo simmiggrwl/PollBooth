@@ -12,6 +12,10 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
+  team: {
+    type: String,
+    unique:true,
+  },
   created: {
     type: Date,
     default: Date.now,
