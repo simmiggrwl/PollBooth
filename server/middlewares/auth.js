@@ -11,6 +11,6 @@ module.exports = (req,res,next) => {
             }
         });
     } else {
-        nextError('No token provided');
+        next(Error('Please login/register'));
     }
 };
