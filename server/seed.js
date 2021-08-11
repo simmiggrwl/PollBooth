@@ -9,17 +9,13 @@ const db = require('./models');
 
 const users = [
   { username: 'username', password: 'password' },
-  { username: 'kelvin', password: 'password' },
+  { username: 'simmi', password: 'password' },
 ];
 
 const polls = [
-  {
-    question: 'Which is the best JavaScript framework',
-    options: ['Angular', 'React', 'VueJS'],
-  },
-  { question: 'Who is the best mutant', options: ['Wolverine', 'Deadpool'] },
   { question: 'Truth or dare', options: ['Truth', 'Dare'] },
   { question: 'Boolean?', options: ['True', 'False'] },
+  { question: 'Delta Tshirt color?', options: ['Blue', 'Red', 'Black', 'Green']},
 ];
 
 const seed = async () => {

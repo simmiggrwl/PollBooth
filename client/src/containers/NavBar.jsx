@@ -24,7 +24,7 @@ const NavBar =({auth, logout}) => (
                     <Link className="navbar-item" to="/poll/new">Create Poll</Link>
                 </li>
                 <li>
-                    <a className="navbar-item" onClick={logout}>Logout</a>
+                    <p className="navbar-item" onClick={logout}>Logout</p>
                 </li>
             </Fragment>}
         </ul>

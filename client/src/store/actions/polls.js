@@ -42,7 +42,7 @@ export const getUserPolls = () => {
 export const deletePoll = (path) => {
     return async dispatch => {
         try{
-            const poll = await api.call('delete', `polls/${path}`);
+            await api.call('delete', `polls/${path}`);
             dispatch(removeError());
             window.location.href="/";  
         } catch(err){
