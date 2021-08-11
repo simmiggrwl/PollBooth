@@ -8,7 +8,6 @@ const color = () => {
     return ('#' + Math.random().toString(16).slice(2,8));
 };
 
-
 const Poll = ({poll, vote, deletePoll}) => {
         const answers= poll.options && poll.options.map(option => (
         <button className="button" onClick={()=> vote(poll._id, {answer: option.option})} key={option._id}>{option.option}</button>
