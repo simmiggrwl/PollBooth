@@ -1,0 +1,25 @@
+.navbar {
+    background-color: var(--blue);
+    padding: 1rem 0;
+  }
+  
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}  
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-user {
+  margin-top: 0.5rem;
+  text-align: right;
+  color: var(--light);
+}
+
