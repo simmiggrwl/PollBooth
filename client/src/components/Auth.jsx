@@ -28,7 +28,7 @@ class Auth extends Component {
 
   render() {
     const { username, password } = this.state;
-
+    
     return (
       <div>
         <form className="form" onSubmit={this.handleSubmit}>
